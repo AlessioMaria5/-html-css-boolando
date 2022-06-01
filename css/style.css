@@ -64,9 +64,11 @@ main {
 .logo img {
 
     width: 20%;
+    filter: contrast(200%);
+
 }
 
-.profile {
+.profile span a {
 
     color: white;
 }
@@ -87,7 +89,7 @@ main {
 
 .container {
 
-    width: 75%;
+    width: 50%;
     margin: auto;
     
     display: flex;
@@ -239,6 +241,7 @@ footer {
 
     display: flex;
     flex-direction: row;
+    
 
 }
 
@@ -266,6 +269,7 @@ footer {
     display: inline-block;
     font-size: 10px;
 }
+
 
 
 
