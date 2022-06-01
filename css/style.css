@@ -6,6 +6,16 @@
 
 /* HEADER START */
 
+
+
+header {
+
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0px;
+}
+
 .nav {
     background-color: #ff6900;
     height: 50px;
@@ -15,6 +25,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+main {
+
+    padding-top: 50px;
 }
 
 .category {
@@ -196,3 +212,61 @@ left: 0;
 
     display:none;
 }
+
+/* CARATTERE */
+
+/* FOOTER */
+
+footer {
+
+    width: 100%;
+    background-color: #1a1a1a;
+ 
+}
+
+.foot-info {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.social .social-icon {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.social .social-icon ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.social .social-icon ul li {
+
+    list-style: none;
+    display: inline-block;
+}
+
+.copyrights ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.copyrights ul li {
+
+    list-style: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+
+
+/* FOOTER */
