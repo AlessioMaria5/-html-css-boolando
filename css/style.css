@@ -83,13 +83,50 @@ main {
 
     width: calc(90% / 3);
     margin: 10px;
+
 }
 
 .products img {
 
     width: 100%;
+
 }
 
+.in-products {
+
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.label {
+
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    
+
+}
+
+.label-b {
+
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+   
+
+}
 /* MAIN END */
 
 
