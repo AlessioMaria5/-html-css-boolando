@@ -81,23 +81,26 @@ main {
 
 .products {
 
-    width: calc(90% / 3);
-    margin: 10px;
+    width: calc(80% / 3);
+    margin: 25px;
+    
+    
 
 }
 
 .products img {
 
     width: 100%;
-
 }
 
 .in-products {
 
     position: relative;
-    display: flex;
     width: 100%;
+
 }
+
+
 
 .label {
 
@@ -141,6 +144,13 @@ main {
 
     color: red;
 }
+
+
+
+
+
+
+
 /* MAIN END */
 
 
@@ -172,4 +182,17 @@ h6 {
 
     color: #818180;
     text-decoration: line-through;
+}
+
+.downimg {
+
+position: absolute;
+left: 0;
+
+
+}
+
+.downimg:hover {
+
+    display:none;
 }
