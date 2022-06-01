@@ -127,6 +127,20 @@ main {
    
 
 }
+
+.like {
+
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    top: 5px;
+    right: 0px;
+}
+
+.like:hover {
+
+    color: red;
+}
 /* MAIN END */
 
 
