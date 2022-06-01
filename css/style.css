@@ -109,61 +109,63 @@ main {
 .products img {
 
     width: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
 }
 
 .in-products {
 
     position: relative;
     width: 100%;
+}
+
+.pre-label {
+
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    font-size: 60%;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
 
 }
 
 
-
 .label {
-
-    padding: 5px;
-    font-size: 10px;
-    font-weight: bold;
-    background-color: red;
-    color: white;
-
-    position: absolute;
-    bottom: 20px;
-    left: 0;
     
-
+    background-color: red;
+    width: fit-content;
+    padding: 5px;
+    margin-right: 5px;
 }
 
 .label-b {
 
-    padding: 5px;
-    font-size: 10px;
-    font-weight: bold;
     background-color: green;
-    color: white;
-    position: absolute;
-    bottom: 20px;
-    left: 40px;
-   
-
+    width: fit-content;
+    margin-right: 5px;
+    padding: 5px;
 }
+
 
 .like {
 
     position: absolute;
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     top: 5px;
     right: 0px;
+    border-radius: 20px;
+    margin: 10px;
+
 }
 
 .like:hover {
 
     color: red;
 }
-
-
 
 
 
@@ -213,6 +215,7 @@ left: 0;
 .downimg:hover {
 
     display:none;
+
 }
 
 /* CARATTERE */
