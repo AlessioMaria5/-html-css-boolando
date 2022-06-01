@@ -60,3 +60,65 @@
     padding: 5px;
 }
 
+/* HEADER END */
+
+/* MAIN START */
+
+main {
+
+    width: 100%;
+}
+
+.container {
+
+    width: 75%;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.products {
+
+    width: calc(90% / 3);
+    margin: 10px;
+}
+
+.products img {
+
+    width: 100%;
+}
+
+/* MAIN END */
+
+
+/* CARATTERI */
+
+h4 {
+
+    font-family: 'Roboto Condensed', sans;
+    font-size: 12px;
+    margin-bottom: -6px;
+
+}
+
+h6 {
+
+    color: #b3b3b3;
+}
+
+.price {
+
+    color: red;
+    font-size: 10px;
+    font-weight: 900;
+
+
+}
+
+.price .price-b{
+
+    color: #818180;
+    text-decoration: line-through;
+}
