@@ -209,13 +209,12 @@ h6 {
 position: absolute;
 left: 0;
 
-
 }
 
-.downimg:hover {
 
-    display:none;
-
+.in-products:hover .downimg{
+    
+    display: none;
 }
 
 /* CARATTERE */
