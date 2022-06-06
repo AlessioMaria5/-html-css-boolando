@@ -28,17 +28,17 @@ header {
 
 }
 
-main {
-
-    padding-top: 50px;
-}
-
 .category {
 
     display: flex;
     flex-direction: row; 
     list-style: none;
 
+}
+
+.category li:hover {
+
+    text-decoration: underline;
 }
 
 .category a:link {
@@ -53,8 +53,13 @@ main {
 
 }
 
+main {
 
-.logo {
+    padding-top: 50px;
+}
+
+
+ .logo a {
 
     display: flex;
     justify-content: center;
